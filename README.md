@@ -1,5 +1,22 @@
 # credit-risk-classification
 Week20 Assignment
+**Question:** How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+
+**Answer:** 
+
+An overview of the analysis:
+The purpose of this analysis is to evaluate the performance of our machine learning model, specifically its ability to predict healthy loans and high-risk loans accurately.
+
+The results:
+Accuracy Score: The machine learning model achieved an impressive accuracy score of 99%.
+Precision Score: For healthy loans, the precision score is 100%, while for high-risk loans, it is 87%.
+Recall Score: The recall score for high-risk loans stands at 89%.
+
+
+A summary:
+The model's high accuracy and precision scores, especially for healthy loans, indicate its reliability. The 99% overall accuracy score is a strong testament to its predictive capabilities. While there is room for minor improvement in identifying high-risk loans, the model demonstrates a commendable job at minimizing false high-risk predictions. Therefore, it is a valuable tool for the company's decision-making processes.
+
+--------------------------------------------------------------------------
 
 Background
 In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
